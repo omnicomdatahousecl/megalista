@@ -55,18 +55,18 @@ variable "setup_firestore_collection" {
 variable "location" {
   type        = string
   description = "GCP location https://cloud.google.com/compute/docs/regions-zones?hl=pt-br default us"
-  default     = "us"
+  default     = "southamerica"
 }
 
 variable "region" {
   type        = string
   description = "GCP region https://cloud.google.com/compute/docs/regions-zones?hl=pt-br default us-central1"
-  default     = "us-central1"
+  default     = "southamerica-east1"
 }
 
 variable "zone" {
   type        = string
   description = "GCP zone https://cloud.google.com/compute/docs/regions-zones?hl=pt-br default us-central1"
-  default     = "us-central1-f"
+  default     = "southamerica-east1-c"
 }
 
